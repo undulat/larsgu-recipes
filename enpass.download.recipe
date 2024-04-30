@@ -27,9 +27,9 @@
 		</dict>
 		<dict>
 			<key>Arguments</key>
+			<dict>
 				<key>url</key>
 				<string>https://www.enpass.io/download/macos/website/stable</string>
-			<dict>
 				<key>filename</key>
 				<string>Enpass.pkg</string>
 			</dict>
