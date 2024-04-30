@@ -20,14 +20,15 @@
 			<dict>
 				<key>re_pattern</key>
 				<string>(?P&lt;url&gt;https:\/\/dl\.enpass\.io\/stable\/mac\/package\/.*?Enpass\.pkg?)</string>
-				<key>url</key>
-				<string>https://www.enpass.io/downloads/</string>
+				
 			</dict>
 			<key>Processor</key>
 			<string>URLTextSearcher</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
+				<key>url</key>
+				<string>https://www.enpass.io/download/macos/website/stable</string>
 			<dict>
 				<key>filename</key>
 				<string>Enpass.pkg</string>
